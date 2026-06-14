@@ -31,6 +31,96 @@ Interpreted Programming Langugages: Dyanmic typing
     let variable
 
 
+Page Object Module (POM):
+    For each Web page of application, we create seperate classes
+    We store web page's elements and web page specific actions inside th page classes
+    Whenever we need those elements and actions of the web page, we create object from the page class
+
+
+    LoginPage{
+        
+        usernameField
+        passwordFiled
+        loginBttn
+
+        enterUsername(usernae){
+            // enters the suername
+        }
+
+        enterPassword(password){
+            // enters the password
+        }
+
+        clickLoginButton(){
+            //clciks Login button
+        }
+
+        login(username, password){
+            enterUsername(usernae);
+            enterPassword(password);
+            clickLoginButton()
+        }
+
+    }
+
+
+    Test:
+        LoginPage loginPage = new LoginPage();
+
+
+Inheritance: 
+
+    BasePage{
+       // common properties of all page classes
+    }
+
+
+    LoginPage extends BasePage{
+
+    }
+
+    HomePage extends BasePage{
+
+    }
+    ...
+
+
+
+Promise: Future value/error
+        Represents a value that will be availabe either noew, or in the future or never
+
+        psoimise ===> 50/50
+
+
+Task01:
+    Step1: Make a promise to give a value
+    Step2
+    Step3
+    Step4
+    Step5: Return value
+
+Task02:
+    Step1
+    Step2
+    Step3 ===> needs the value of task01 ==> await for the pomised value
+    Step4
+
+Task03:
+    Step1
+    Step2 ===> needs the value of task01 ==> await for the pomised value
+    Step3
+
+Task04:
+    Step1
+    Step2
+    Step3 ===> needs the value of task01 ==> await for the pomised value
+    Step4
+
+
+
+
+
+
 
 
 
@@ -52,3 +142,14 @@ Next Week:
         Screenshot, Video recording, and Playwright Trace
         More of GitHub Copilot
 
+
+
+=========================
+
+AI Tools:
+    Week01 ~ Week05:
+        GitHub Copilot -- one month free trial
+        Perplexity -- Free version
+
+    Week06: AI Agnetic Coding 
+        Antigravity -- 20$/month

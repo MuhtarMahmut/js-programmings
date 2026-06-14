@@ -122,4 +122,44 @@ for(let eachOption of dropdownOptions) {
     console.log("Verifying Dropdown option: " + eachOption);
 }
 
-// come back at 11:40 AM EST
+console.log("=======================================");
+
+let checkBoxOptions = ["Checkbox 1", "Checkbox 2", "Checkbox 3", "Checkbox 4", "Checkbox 5", "Checkbox 5", "Checkbox 5"];
+
+console.log(checkBoxOptions);
+
+let checkBoxOptions2 = new Set(checkBoxOptions);
+
+console.log(checkBoxOptions2);
+
+let maps = {
+    "name": "John", 
+    "age": 30, 
+    "city": "New York"
+};
+
+console.log(maps);
+
+
+// use for of loop to iterate through the array.
+for(let eachOption of checkBoxOptions) {
+    console.log("Verifying Checkbox option: " + eachOption);
+}
+
+console.log("====================="); 
+
+// use for in loop to iterate through the map.
+for(let key in maps) {
+    console.log("Key: " + key + ", Value: " + maps[key]);
+}
+
+console.log("====================="); 
+
+// use for in loop to iterate through the set.
+for(let option of checkBoxOptions2) {
+    console.log("Verifying Checkbox option: " + option);
+}
+
+console.log("=======================");
+
+console.log(checkBoxOptions[1]);
