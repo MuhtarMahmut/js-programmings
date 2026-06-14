@@ -10,7 +10,33 @@ Week01 Review:
             Promises
             Async & Await
 
-Class Starts at 10:05 AM EST
+========================
+
+compiler vs interpreter:
+
+    compiler: converts the source code to binary druing the compile time
+
+    interpreter: converts the source code to binary druing the runtime
+
+
+Compiled Programming Languages: Static typing
+    Java, C#, C++, Ruby, TypeScript,
+
+    int variable
+
+
+Interpreted Programming Langugages: Dyanmic typing
+    JavaScript, Python
+
+    let variable
+
+
+
+
+
+
+
+=========================
 
 Next Week: 
     Introduction to Playwright & Playwright Browsers
