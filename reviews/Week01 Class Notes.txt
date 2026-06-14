@@ -1,0 +1,28 @@
+Week01 Review:
+	Topics:
+		Core javaScript
+
+    AI Tools:
+        Perplexity
+        Tabnine/GitHub Copilot
+
+    Asynchronious Programming:
+            Promises
+            Async & Await
+
+Class Starts at 10:05 AM EST
+
+Next Week: 
+    Introduction to Playwright & Playwright Browsers
+    Page Fixture
+    Global COnfigurations 
+    Test Function & Groups
+    Playwright Locators (CSS, XPath, Text, ID)
+    Hooks Functions
+
+    During live class:
+        Playwright Locators (getBy methods)
+        Edge & Google Chrome
+        Screenshot, Video recording, and Playwright Trace
+        More of GitHub Copilot
+
